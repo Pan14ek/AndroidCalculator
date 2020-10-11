@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="86dp"
+        android:textSize="18sp"
+        android:text="@string/_0_0" />
+
+    <EditText
+        android:id="@+id/numberField"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="121dp"
+        android:inputType="phone"
+        android:background="@drawable/round_shape" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="177dp"
+        android:onClick="onClickElement"
+        android:text="@string/_7"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="176dp"
+        android:onClick="onClickElement"
+        android:text="@string/_8"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="105dp"
+        android:onClick="onClickElement"
+        android:text="@string/_9"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="105dp"
+        android:onClick="onClickElement"
+        android:text="@string/divideOperator"
+        android:background="@drawable/round_shape_orange" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="239dp"
+        android:onClick="onClickElement"
+        android:text="@string/_4"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="239dp"
+        android:onClick="onClickElement"
+        android:text="@string/_5"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="105dp"
+        android:onClick="onClickElement"
+        android:text="@string/_6"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onClickElement"
+        android:text="@string/multiOperator"
+        android:background="@drawable/round_shape_orange" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="298dp"
+        android:onClick="onClickElement"
+        android:text="@string/_1"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="298dp"
+        android:onClick="onClickElement"
+        android:text="@string/_2"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="106dp"
+        android:onClick="onClickElement"
+        android:text="@string/_3"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onClickElement"
+        android:text="@string/minusOperator"
+        android:background="@drawable/round_shape_orange" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="11dp"
+        android:onClick="onClickElement"
+        android:text="@string/_0"
+        android:background="@drawable/round_shape_yellow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="208dp"
+        android:background="@drawable/round_shape_yellow"
+        android:onClick="onClickElement"
+        android:text="@string/commaOperator" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onClickElement"
+        android:text="@string/plusOperator"
+        android:background="@drawable/round_shape_orange" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="11dp"
+        android:onClick="onClickGetResult"
+        android:text="@string/equalOperator"
+        android:background="@drawable/round_shape_orange" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="477dp"
+        android:text="Oleksii Makieiev PZPI-17-1" />
+
+</RelativeLayout>

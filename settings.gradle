@@ -1,0 +1,2 @@
+include ':oleksiimakieiev_pzpi-17-1'
+rootProject.name = "CalculatorOleksiiMakieievPZPI171"
